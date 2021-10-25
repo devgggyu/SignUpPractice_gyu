@@ -31,7 +31,6 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="15dp"
-    android:layout_margintop="10dp"
     android:text="아이디" />
 
     <EditText
@@ -44,7 +43,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margintop="10dp"
         android:text="비밀번호" />
 
     <EditText
@@ -55,7 +53,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margintop="10dp"
         android:text="닉네임" />
 
     <EditText
@@ -83,11 +80,13 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="공개 안함" />
 
     </RadioGroup>
 
     <CheckBox
+        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="false"
